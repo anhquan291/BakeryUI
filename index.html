@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="./css/setting.css" />
+  <link rel="stylesheet" href="./css/lightbox.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <!-- javascript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <title>Bakery</title>
+</head>
+
+<body>
+  <header class="header pt-2" id="header">
+    <div class="container">
+      <nav class="navbar d-flex align-items-center align-items-md-center ">
+        <a href="#" class="logo nav-brand" id="logo"><img src="/images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button">
+          <i class="fas fa-hamburger"></i>
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#header" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-text text-center w-100 text-white px-2 px-sm-0" data-aos="fade-down">
+        <h1 class="display-3">Welcome</h1>
+        <p class="lead display-5 mb-4">Baked goods like you've never seen before!</p>
+        <a class="btn px-5" href="#">Explore</a>
+        <a class="btn px-5" href="#">Find a store</a>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+  <main id="main">
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row align-items-md-center">
+          <div class="col-12 col-md-6 text-center pb-4" data-aos="fade-right">
+            <div class="section-heading">
+              <h4 class="heading-title">Discover</h4>
+              <h2 class="heading-subTitle">Our Story</h2>
+            </div>
+            <p class="about-desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+              layout.The point of using Lorem Ipsum is that it has a more-or-less
+            </p>
+            <a href="#" class="btn px-5">Find out more</a>
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-left">
+            <img class="img-fluid" src="/images/about-img.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="row text-center text-white" id="contact">
+          <div class="col-12 col-md-4 mb-4 mb-md-0">
+            <div class="menu-info" data-aos="flip-right">
+              <i class="far fa-clock mb-3"></i>
+              <h3 class="mb-4">Hours of operation</h3>
+              <p>Mon to Fri: 8:00am - 6:00pm</p>
+              <p>Sat to Sun: 8:00am - 1:00pm</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4 mb-md-0">
+            <div class="menu-info" data-aos="flip-up">
+              <i class="fas fa-location-arrow mb-3"></i>
+              <h3 class="mb-4">Our location</h3>
+              <address>
+                1234 First Avenue<br>
+                Newyork City, Ny 1231
+              </address>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4 mb-md-0">
+            <div class="menu-info" data-aos="flip-left">
+              <i class="fas fa-mobile-alt mb-3"></i>
+              <h3 class="mb-4">Get in touch</h3>
+              <p>Phone: (800) 555-5555</p>
+              <p>Email: contact@bakery.com</p>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-5">
+      </div>
+      <div class="container-fluid p-0" id="menu">
+        <div class="section-heading m-5 text-center" data-aos="fade-down">
+          <h4 class="heading-title">Our Tasty Food</h4>
+          <h2 class="heading-subTitle">The Menu</h2>
+        </div>
+        <!-- Row #1 -->
+        <div class="row no-gutters" data-aos="fade-up">
+          <!-- set #1 -->
+          <div class="lightbox-content cake-img col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 ">
+            <a href="/images/menu-item-1.jpg" data-lightbox="photograth">
+              <img src="/images/menu-item-1.jpg" alt="" class="img-fluid" data-lightbox="photograth">
+            </a>
+          </div>
+          <div class="menu-top col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2 d-flex align-items-center justify-content-center">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h4>The cake</h4>
+              <p>You have to try! it's the best seller cake</p>
+              <a href="#" class="btn">Learn more</a>
+            </div>
+          </div>
+          <!-- set #2 -->
+          <div class="lightbox-content cake-img col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-3">
+            <a href="/images/menu-item-2.jpg" data-lightbox="photograth">
+              <img src="/images/menu-item-2.jpg" alt="" class="img-fluid" data-lightbox="photograth">
+            </a>
+          </div>
+          <div class="menu-top col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4 d-flex align-items-center justify-content-center">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h4>The cake</h4>
+              <p>You have to try! it's the best seller cake</p>
+              <a href="#" class="btn">Learn more</a>
+            </div>
+          </div>
+          <!-- set #3 -->
+          <div class="lightbox-content cake-img col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5">
+            <a href="/images/menu-item-3.jpg" data-lightbox="photograth">
+              <img src="/images/menu-item-3.jpg" alt="" class="img-fluid" data-lightbox="photograth">
+            </a>
+          </div>
+          <div class="menu-top col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6 d-flex align-items-center justify-content-center">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h4>The cake</h4>
+              <p>You have to try! it's the best seller cake</p>
+              <a href="#" class="btn">Learn more</a>
+            </div>
+          </div>
+          <!-- set #4 -->
+          <div class="lightbox-content cake-img col-12 col-sm-6 col-xl-2 order-sm-8 order-xl-8">
+            <a href="/images/menu-item-4.jpg" data-lightbox="photograth">
+              <img src="/images/menu-item-4.jpg" alt="" class="img-fluid" data-lightbox="photograth">
+            </a>
+          </div>
+          <div class="menu-bottom col-12 col-sm-6 col-xl-2 order-sm-7 order-xl-7 d-flex align-items-center justify-content-center">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h4>The cake</h4>
+              <p>You have to try! it's the best seller cake</p>
+              <a href="#" class="btn">Learn more</a>
+            </div>
+          </div>
+          <!-- set #5 -->
+          <div class="lightbox-content cake-img col-12 col-sm-6 col-xl-2 order-sm-9 order-xl-10">
+            <a href="/images/menu-item-5.jpg" data-lightbox="photograth">
+              <img src="/images/menu-item-5.jpg" alt="" class="img-fluid" data-lightbox="photograth">
+            </a>
+          </div>
+          <div class="menu-bottom col-12 col-sm-6 col-xl-2 order-sm-10 order-xl-9 d-flex align-items-center justify-content-center">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h4>The cake</h4>
+              <p>You have to try! it's the best seller cake</p>
+              <a href="#" class="btn">Learn more</a>
+            </div>
+          </div>
+          <!-- set #6 -->
+          <div class="lightbox-content cake-img col-12 col-sm-6 col-xl-2 order-sm-12 order-xl-12">
+            <a href="/images/menu-item-6.jpg" data-lightbox="photograth">
+              <img src="/images/menu-item-6.jpg" alt="" class="img-fluid" data-lightbox="photograth">
+            </a>
+          </div>
+          <div class="menu-bottom col-12 col-sm-6 col-xl-2 order-sm-11 order-xl-11 d-flex align-items-center justify-content-center">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h4>The cake</h4>
+              <p>You have to try! it's the best seller cake</p>
+              <a href="#" class="btn">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu -->
+    <section class="chef" id="chef">
+      <div class="container">
+        <div class="section-heading m-5 text-center">
+          <h4 class="heading-title" data-aos="fade-right">Meet</h4>
+          <h2 class="heading-subTitle" data-aos="fade-left">Our Chefs</h2>
+        </div>
+        <div class="row" data-aos="fade-up">
+          <div class="chef-col col-12 col-md-4">
+            <img src="/images/chef-1.png" alt="">
+            <div class="card-body">
+              <h4>Olivia Logan</h4>
+              <h6>Cupcake Specialist</h6>
+              <p>Olivia is awesome pastry chef!</p>
+            </div>
+          </div>
+          <div class="chef-col col-12 col-md-4">
+            <img src="/images/chef-2.png" alt="">
+            <div class="card-body">
+              <h4>Jessica Lewis</h4>
+              <h6>Master Baker</h6>
+              <p>Jessica is awesome pastry chef!</p>
+            </div>
+          </div>
+          <div class="chef-col col-12 col-md-4">
+            <img src="/images/chef-3.png" alt="">
+            <div class="card-body">
+              <h4>James Holt</h4>
+              <h6>Cake Specialist</h6>
+              <p>James is awesome pastry chef!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- chef -->
+  </main>
+  <!-- main -->
+  <footer class="footer fluid text-center py-3" id="footer">
+    <div class="section-heading m-5 text-center" data-aos="fade-up">
+      <h4 class="heading-title">Feel Free To</h4>
+      <h2 class="heading-subTitle">Contact Us</h2>
+    </div>
+    <p>&copy All rights reserved by Bakery 2020</p>
+  </footer>
+  <!-- footer -->
+  <a href="" class="backtop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <div class="load-wrapper">
+    <div class="load-7">
+      <div class="square-holder">
+        <div class="square"></div>
+      </div>
+    </div>
+  </div>
+  <!-- loader -->
+</body>
+
+</html>

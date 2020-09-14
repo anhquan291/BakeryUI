@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Niconne&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Teko:300,400&display=swap");
+:root {
+  --primary-color: #c69963;
+  --light-black: #101d2c;
+  --gray-dark: #263a41;
+  --bg-block: #101d2c;
+  --transprent-color: rgba(255, 255, 255, 0.6);
+  --primary-font: "Teko", sans-serif;
+  --secondary-font: "Niconne";
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 300;
+  color: var(--gray-dark);
+}
+section {
+  padding: 60px 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+button:focus {
+  outline: none !important;
+}
+.wrapper {
+  max-width: var(--wrapper);
+  margin-left: auto;
+  margin-right: auto;
+}
